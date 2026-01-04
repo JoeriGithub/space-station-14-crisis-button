@@ -22,7 +22,29 @@ tilemap:
   56: FloorAstroGrass
   57: FloorAstroSnow
   37: FloorBar
-  48: FloorBlueCircuit
+  48- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 14971
+    components:
+    - type: Transform
+      pos: -25.5,18.5
+      parent: 2
+  - uid: 14972
+    components:
+    - type: Transform
+      pos: -25.5,19.5
+      parent: 2
+  - uid: 14973
+    components:
+    - type: Transform
+      pos: -24.5,19.5
+      parent: 2
+  - uid: 14974
+    components:
+    - type: Transform
+      pos: -24.5,18.5
+      parent: 2
+: FloorBlueCircuit
   63: FloorBrassFilled
   9: FloorCarpetClown
   8: FloorClown

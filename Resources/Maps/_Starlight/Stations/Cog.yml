@@ -18,7 +18,24 @@ tilemap:
   64: FloorAsteroidSandDug
   63: FloorAsteroidSandUnvariantized
   68: FloorAstroGrass
-  49: FloorAstroIce
+ - proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 32801
+    components:
+    - type: Transform
+      pos: -37.5,36.5
+      parent: 2
+  - uid: 32802
+    components:
+    - type: Transform
+      pos: -33.5,37.5
+      parent: 2
+  - uid: 32803
+    components:
+    - type: Transform
+      pos: -36.5,39.5
+      parent: 2
+ 49: FloorAstroIce
   48: FloorAstroSnow
   71: FloorBar
   41: FloorBlueCircuit

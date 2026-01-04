@@ -19,7 +19,24 @@ tilemap:
   3: FloorArcadeRed
   7: FloorAsteroidSand
   12: FloorAstroGrass
-  14: FloorBar
+  14: Floo- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 27092
+    components:
+    - type: Transform
+      pos: 1.5,37.5
+      parent: 2
+  - uid: 27093
+    components:
+    - type: Transform
+      pos: 1.5,39.5
+      parent: 2
+  - uid: 27094
+    components:
+    - type: Transform
+      pos: 1.5,38.5
+      parent: 2
+rBar
   17: FloorBlueCircuit
   20: FloorCarpetClown
   22: FloorCave

@@ -14,7 +14,19 @@ orphans: []
 nullspace: []
 tilemap:
   15: Space
-  33: FloorArcadeBlue2
+  33: FloorArcade- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 14531
+    components:
+    - type: Transform
+      pos: 28.5,13.5
+      parent: 2
+  - uid: 14532
+    components:
+    - type: Transform
+      pos: 27.5,13.5
+      parent: 2
+Blue2
   7: FloorBar
   31: FloorBlueCircuit
   24: FloorBoxing

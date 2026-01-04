@@ -23,7 +23,29 @@ tilemap:
   11: FloorDark
   34: FloorDarkDiagonal
   13: FloorDarkMini
-  14: FloorDarkMono
+  14: FloorDarkMo- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 25026
+    components:
+    - type: Transform
+      pos: 41.5,42.5
+      parent: 2
+  - uid: 25027
+    components:
+    - type: Transform
+      pos: 41.5,41.5
+      parent: 2
+  - uid: 25028
+    components:
+    - type: Transform
+      pos: 41.5,40.5
+      parent: 2
+  - uid: 25029
+    components:
+    - type: Transform
+      pos: 41.5,39.5
+      parent: 2
+no
   19: FloorDarkOffset
   31: FloorDarkPavement
   29: FloorDarkPavementVertical

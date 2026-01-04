@@ -14,7 +14,24 @@ tilemap:
   82: FloorBrokenWood
   44: FloorCarpetClown
   42: FloorClown
-  54: FloorConcreteMono
+  54: Fl- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 23019
+    components:
+    - type: Transform
+      pos: -5.5,33.5
+      parent: 2
+  - uid: 23020
+    components:
+    - type: Transform
+      pos: -6.5,33.5
+      parent: 2
+  - uid: 23021
+    components:
+    - type: Transform
+      pos: -7.5,32.5
+      parent: 2
+oorConcreteMono
   16: FloorDark
   85: FloorDarkMini
   23: FloorDarkMono

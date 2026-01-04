@@ -24,6 +24,28 @@ tilemap:
   17: FloorBlueCircuit
   27: FloorClown
   31: FloorDark
+- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 22981
+    components:
+    - type: Transform
+      pos: -31.5,57.5
+      parent: 2
+  - uid: 22982
+    components:
+    - type: Transform
+      pos: -34.5,57.5
+      parent: 2
+  - uid: 22983
+    components:
+    - type: Transform
+      pos: -32.5,57.5
+      parent: 2
+  - uid: 22984
+    components:
+    - type: Transform
+      pos: -33.5,57.5
+      parent: 2
   34: FloorDarkHerringbone
   36: FloorDarkMono
   38: FloorDarkPavement

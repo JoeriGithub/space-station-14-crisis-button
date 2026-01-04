@@ -35,7 +35,49 @@ tilemap:
   4: FloorMime
   32: FloorMono
   44: FloorMowedAstroGrass
-  34: FloorOldConcrete
+  34:- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 21344
+    components:
+    - type: Transform
+      pos: 2.5,37.5
+      parent: 2
+  - uid: 21345
+    components:
+    - type: Transform
+      pos: 3.5,37.5
+      parent: 2
+  - uid: 21346
+    components:
+    - type: Transform
+      pos: 3.5,36.5
+      parent: 2
+  - uid: 21347
+    components:
+    - type: Transform
+      pos: 2.5,36.5
+      parent: 2
+  - uid: 21348
+    components:
+    - type: Transform
+      pos: 2.5,35.5
+      parent: 2
+  - uid: 21349
+    components:
+    - type: Transform
+      pos: 3.5,35.5
+      parent: 2
+  - uid: 21350
+    components:
+    - type: Transform
+      pos: 3.5,40.5
+      parent: 2
+  - uid: 21351
+    components:
+    - type: Transform
+      pos: 3.5,41.5
+      parent: 2
+ FloorOldConcrete
   38: FloorPlanetDirt
   46: FloorPlanetGrass
   29: FloorPlastic

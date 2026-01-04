@@ -23,7 +23,29 @@ tilemap:
   12: FloorBlue
   51: FloorBlueCircuit
   6: FloorBoxing
-  59: FloorBrokenWood
+  59: FloorBrokenWoo- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 24329
+    components:
+    - type: Transform
+      pos: 4.5,-3.5
+      parent: 2
+  - uid: 24330
+    components:
+    - type: Transform
+      pos: 3.5,-3.5
+      parent: 2
+  - uid: 24331
+    components:
+    - type: Transform
+      pos: 2.5,-3.5
+      parent: 2
+  - uid: 24332
+    components:
+    - type: Transform
+      pos: 1.5,-3.5
+      parent: 2
+d
   9: FloorCarpetClown
   64: FloorCave
   74: FloorCaveDrought

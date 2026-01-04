@@ -37,7 +37,44 @@ tilemap:
   45: FloorGlass
   11: FloorGlassPlasma
   47: FloorGrass
-  49: FloorGrassJungle
+  49: Floor- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 29289
+    components:
+    - type: Transform
+      pos: 7.5,44.5
+      parent: 2
+  - uid: 29290
+    components:
+    - type: Transform
+      pos: 6.5,44.5
+      parent: 2
+  - uid: 29291
+    components:
+    - type: Transform
+      pos: 6.5,42.5
+      parent: 2
+  - uid: 29292
+    components:
+    - type: Transform
+      pos: 7.5,42.5
+      parent: 2
+  - uid: 29293
+    components:
+    - type: Transform
+      pos: 4.5,45.5
+      parent: 2
+  - uid: 29294
+    components:
+    - type: Transform
+      pos: 4.5,46.5
+      parent: 2
+  - uid: 29295
+    components:
+    - type: Transform
+      pos: 4.5,47.5
+      parent: 2
+GrassJungle
   58: FloorHydro
   60: FloorKitchen
   61: FloorLaundry

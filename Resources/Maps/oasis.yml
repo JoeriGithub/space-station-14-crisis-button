@@ -23,7 +23,29 @@ tilemap:
   36: FloorAstroIce
   35: FloorAstroSnow
   8: FloorBar
-  47: FloorBlue
+  47:- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 31383
+    components:
+    - type: Transform
+      pos: 36.5,-31.5
+      parent: 2
+  - uid: 31384
+    components:
+    - type: Transform
+      pos: 31.5,-31.5
+      parent: 2
+  - uid: 31385
+    components:
+    - type: Transform
+      pos: 35.5,-33.5
+      parent: 2
+  - uid: 31386
+    components:
+    - type: Transform
+      pos: 32.5,-33.5
+      parent: 2
+ FloorBlue
   51: FloorBlueCircuit
   50: FloorBoxing
   44: FloorBrokenWood

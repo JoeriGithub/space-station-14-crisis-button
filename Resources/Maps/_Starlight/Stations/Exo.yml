@@ -30,7 +30,39 @@ tilemap:
   5: FloorDarkOffset
   39: FloorDarkPavement
   40: FloorDarkPavementVertical
-  41: FloorDarkPlastic
+  41: FloorDarkPla- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 20589
+    components:
+    - type: Transform
+      pos: 71.5,-39.5
+      parent: 2
+  - uid: 20590
+    components:
+    - type: Transform
+      pos: 69.5,-39.5
+      parent: 2
+  - uid: 20591
+    components:
+    - type: Transform
+      pos: 70.5,-39.5
+      parent: 2
+  - uid: 20592
+    components:
+    - type: Transform
+      pos: 68.5,-39.5
+      parent: 2
+  - uid: 20593
+    components:
+    - type: Transform
+      pos: 68.5,-40.5
+      parent: 2
+  - uid: 20594
+    components:
+    - type: Transform
+      pos: 72.5,-39.5
+      parent: 2
+stic
   43: FloorDarkSquiggly
   31: FloorDirt
   29: FloorEighties

@@ -14,7 +14,19 @@ orphans: []
 nullspace: []
 tilemap:
   0: Space
-  5: FloorBlueCircuit
+  5: FloorBlueCirc- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 19070
+    components:
+    - type: Transform
+      pos: 1.5,-21.5
+      parent: 2
+  - uid: 19071
+    components:
+    - type: Transform
+      pos: 2.5,-21.5
+      parent: 2
+uit
   7: FloorBrokenWood
   23: FloorCarpetClown
   32: FloorDark

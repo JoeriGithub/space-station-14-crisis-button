@@ -23,7 +23,29 @@ tilemap:
   41: FloorBoxing
   32: FloorBrokenWood
   42: FloorCarpetClown
-  56: FloorCarpetDeco
+  56: Floor- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 38756
+    components:
+    - type: Transform
+      pos: -54.5,-20.5
+      parent: 2
+  - uid: 38757
+    components:
+    - type: Transform
+      pos: -55.5,-20.5
+      parent: 2
+  - uid: 38758
+    components:
+    - type: Transform
+      pos: -57.5,-20.5
+      parent: 2
+  - uid: 38759
+    components:
+    - type: Transform
+      pos: -56.5,-20.5
+      parent: 2
+CarpetDeco
   50: FloorClown
   20: FloorConcrete
   21: FloorConcreteMono

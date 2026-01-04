@@ -33,7 +33,39 @@ tilemap:
   49: FloorGrass
   50: FloorGrassDark
   51: FloorGrassJungle
-  3: FloorGrayConcrete
+  3: FloorGrayC- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 25916
+    components:
+    - type: Transform
+      pos: -20.5,-2.5
+      parent: 2
+  - uid: 25917
+    components:
+    - type: Transform
+      pos: -34.5,-0.5
+      parent: 2
+  - uid: 25918
+    components:
+    - type: Transform
+      pos: -32.5,-0.5
+      parent: 2
+  - uid: 25919
+    components:
+    - type: Transform
+      pos: -19.5,-2.5
+      parent: 2
+  - uid: 25920
+    components:
+    - type: Transform
+      pos: -21.5,-2.5
+      parent: 2
+  - uid: 25921
+    components:
+    - type: Transform
+      pos: -21.5,-3.5
+      parent: 2
+oncrete
   2: FloorGrayConcreteMono
   56: FloorGreenCircuit
   6: FloorHull

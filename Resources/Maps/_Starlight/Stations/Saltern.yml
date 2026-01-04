@@ -14,7 +14,19 @@ orphans: []
 nullspace: []
 tilemap:
   0: Space
-  7: FloorAsteroidSand
+  7: FloorAsteroidSa- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 12547
+    components:
+    - type: Transform
+      pos: -13.5,16.5
+      parent: 2
+  - uid: 12548
+    components:
+    - type: Transform
+      pos: -12.5,16.5
+      parent: 2
+nd
   2: FloorAstroGrass
   17: FloorBlueCircuit
   19: FloorBrokenWood

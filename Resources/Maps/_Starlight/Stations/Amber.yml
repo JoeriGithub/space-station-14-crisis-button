@@ -10,7 +10,19 @@ tilemap:
   0: FloorAstroSnow
   74: FloorBar
   58: FloorBlueCircuit
-  72: FloorBoxing
+  72- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 20343
+    components:
+    - type: Transform
+      pos: -27.5,16.5
+      parent: 2
+  - uid: 20344
+    components:
+    - type: Transform
+      pos: -26.5,16.5
+      parent: 2
+: FloorBoxing
   60: FloorBrokenWood
   50: FloorCarpetClown
   63: FloorCarpetOffice

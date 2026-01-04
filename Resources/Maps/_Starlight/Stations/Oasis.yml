@@ -33,6 +33,38 @@ tilemap:
   16: FloorDark
   57: FloorDarkBitile
   27: FloorDarkDiagonal
+- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 31378
+    components:
+    - type: Transform
+      pos: 40.5,-31.5
+      parent: 2
+  - uid: 31379
+    components:
+    - type: Transform
+      pos: 40.5,-32.5
+      parent: 2
+  - uid: 31380
+    components:
+    - type: Transform
+      pos: 39.5,-31.5
+      parent: 2
+  - uid: 31381
+    components:
+    - type: Transform
+      pos: 41.5,-31.5
+      parent: 2
+  - uid: 31382
+    components:
+    - type: Transform
+      pos: 39.5,-32.5
+      parent: 2
+  - uid: 31383
+    components:
+    - type: Transform
+      pos: 41.5,-32.5
+      parent: 2
   55: FloorDarkHerringbone
   41: FloorDarkMini
   29: FloorDarkMono

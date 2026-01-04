@@ -19,7 +19,24 @@ tilemap:
   20: FloorArcadeRed
   15: FloorAstroGrass
   6: FloorBar
-  44: FloorBlue
+  44: Flo- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 21260
+    components:
+    - type: Transform
+      pos: 41.5,-18.5
+      parent: 2
+  - uid: 21261
+    components:
+    - type: Transform
+      pos: 41.5,-17.5
+      parent: 2
+  - uid: 21262
+    components:
+    - type: Transform
+      pos: 41.5,-19.5
+      parent: 2
+orBlue
   48: FloorBlueCircuit
   40: FloorBrokenWood
   16: FloorCarpetClown
