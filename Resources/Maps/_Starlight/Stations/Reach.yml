@@ -5,14 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 09/29/2025 04:18:45
-  entityCount:- proto: SpawnPointDrillInstructor
-  entities:
-  - uid: 3083
-    components:
-    - type: Transform
-      pos: 16.5,1.5
-      parent: 2
- 3082
+  entityCount: 3082
 maps:
 - 1
 grids:
@@ -17885,6 +17878,14 @@ entities:
     - type: Transform
       pos: 16.5,1.5
       parent: 2
+- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 3083
+    components:
+    - type: Transform
+      pos: 16.5,1.5
+      parent: 2
+
 - proto: SpawnPointSecurityOfficer
   entities:
   - uid: 2423

@@ -15,18 +15,6 @@ nullspace: []
 tilemap:
   6: Space
   4: FloorDark
-- proto: SpawnPointDrillInstructor
-  entities:
-  - uid: 25919
-    components:
-    - type: Transform
-      pos: 21.5,7.5
-      parent: 2
-  - uid: 25920
-    components:
-    - type: Transform
-      pos: 21.5,9.5
-      parent: 2
   5: FloorFreezer
   11: FloorHydro
   2: FloorRGlass
@@ -22890,6 +22878,19 @@ entities:
     - type: Transform
       pos: 21.5,9.5
       parent: 2
+- proto: SpawnPointDrillInstructor
+  entities:
+  - uid: 4041
+    components:
+    - type: Transform
+      pos: 21.5,7.5
+      parent: 2
+  - uid: 4042
+    components:
+    - type: Transform
+      pos: 21.5,9.5
+      parent: 2
+
 - proto: SpawnPointSecurityOfficer
   entities:
   - uid: 1549
